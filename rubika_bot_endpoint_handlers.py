@@ -2,7 +2,7 @@ import requests
 import json
 
 def send_rubika_message():
-    token = "dkjfniejw9348rfj9ujh98jrugfer"
+    token = "JJBIG0RIHWLMKCMTHTRMUQZLZCSYCEEZQESGLWYVFOKWIAYCSRBNNWPFUGEOTDUF"
     chat_id = "b0Bn6EC01fA08b4b6678ceef57ebfcf1"
     response_text = "Hi"
     
