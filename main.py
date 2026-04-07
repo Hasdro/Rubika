@@ -1,5 +1,6 @@
 import requests
 import os
+import json
 
 def main(context):
     # 1. Configuration from Environment Variables (Security Best Practice)
