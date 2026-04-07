@@ -12,7 +12,10 @@ def main(context):
 
     # 2. Extract user_input from the incoming request body
     # Appwrite provides the body as a dictionary if it's JSON
-    user_input = context.req.body
+    user_input_raw = context.req.body
+    user_input = json.dumps(user_input_raw)
+
+    
 
     # 3. Construct the Zoho URL
     # Using params= in requests handles the URL encoding (encodeUrl) automatically
